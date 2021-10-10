@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Itim', cursive;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            /* background:url('Image/wallpaperflare.com_wallpaper (2).jpg'); */
+            background: url('Image/ab.jpg');
+            /* filter: invert(100%); */
+            background-size: 3650px 2550px;
+
+
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 34px;
+            top: 20px;
+            text-align: center;
+
+        }
+
+        .left div {
+            font-size: 40px;
+            margin: 0px;
+        }
+
+        .middle {
+           
+
+            display: block;
+            width: 40%;
+            margin: 50px auto;
+            border: 2px solid green;
+
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 55px;
+            display: inline-block;
+
+            /* border: 2px solid yellow; */
+
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 34px;
+
+        }
+
+
+        a:hover {
+            color: grey;
+            text-decoration: underline;
+        }
+
+        .left img {
+            width: 201px;
+            filter: invert(100%);
+        }
+
+        .btn {
+            font-family: 'Itim', cursive;
+            margin: 0px 20px;
+            background-color: black;
+            color: white;
+            font-size: 18px;
+            padding: 6px 6px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(54, 52, 52);
+        }
+
+        .container {
+            border: 2px solid greenyellow;
+            /* margin: 154px 70px; */
+            margin: 200px 70px;
+            padding: 70px 30px;
+            width: 40%;
+            border-radius: 20px;
+
+        }
+
+        .container input {
+            display: block;
+        }
+
+        .form-group input {
+            font-family: 'Itim', cursive;
+            text-align: center;
+            width: 70%;
+            padding: 15px;
+            border: 3px solid rgb(54, 243, 7);
+            margin: 15px auto;
+            font-size: 22px;
+            border-radius: 20px;
+
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 73%;
+            height: 56px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="left">
+            <img src="Image/logoedit.jpg" alt="">
+            <div>Gym-Freaks </div>
+        </div>
+        <div class="middle">
+            <div class="navbar">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Fitness Calculator</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+
+        </div>
+    </header>
+
+//last div class
+    <div class="container">
+        <h1>Join the beast gym of Mumbai</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+                <input type="text" name="" placeholder="Enter your Age">
+                <input type="text" name="" placeholder="Enter your gender">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit now</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
